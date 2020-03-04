@@ -1,3 +1,79 @@
+body {
+  font-family: aria, sans-serif;
+}
+
+h2 {
+  font-family: "Times New Roman", Georgia, serif;
+}
+
 p {
-  background-color: black;
+  color: blue;
+  background-color: white;
+}
+
+code {
+  font-family: "Courier New", monospace;
+  background-color: #b9b5b4;
+  padding: 15px 20px 15px 15px;
+  border: 1.5px solid #000000;
+}
+
+ol {
+  font-size: 1.5rem;
+  list-style-type:  lower-greek;
+  list-style-position: inside;
+}
+
+li {
+  line-height: 2.5;
+}
+
+nav > ol {
+  list-style-type: none;
+  font-family: monospace;
+  padding: 25px;
+}
+
+nav > ol > li {
+  display: inline;
+  font-size: .5em;
+  padding: 25px;
+  margine: 25px;
+  margin-left: 20px;
+}
+
+figcaption {
+  border-top: 1px black solid;
+  padding-top: 2px;
+}
+
+a:hover {
+  background-color: #000000;
+  color: red;
+}
+
+/* Set of code applies primarily to the tables.html page */
+
+caption {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 4px black;
+  padding-bottom: 5px;
+}
+
+thead, tfoot {
+  background-color: #082974;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+td, th {
+  padding: 5px 10px;
 }
