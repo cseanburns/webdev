@@ -2,17 +2,46 @@ body {
   font-family: aria, sans-serif;
 }
 
+h1, h2 {
+  font-family: Georgia, serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
 h2 {
-  font-family: "Times New Roman", Georgia, serif;
+  font-size: 1rem;
+  text-transform: lowercase;
+  text-shadow: 4px 4px 4px blue;
 }
 
 p {
-  color: blue;
+  color: black;
   background-color: white;
 }
 
+#loremipsum {
+  text-decoration: line-through;
+}
+
+#curabitur {
+  text-decoration: underline;
+}
+
+#sed {
+  text-decoration: overline;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+}
 code {
   font-family: "Courier New", monospace;
+  font-style: italic;
   background-color: #b9b5b4;
   padding: 15px 20px 15px 15px;
   border: 1.5px solid #000000;
@@ -37,9 +66,8 @@ nav > ol {
 nav > ol > li {
   display: inline;
   font-size: .5em;
-  padding: 25px;
-  margine: 25px;
-  margin-left: 20px;
+  padding: 10px;
+  margin: 10px;
 }
 
 figcaption {
