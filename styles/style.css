@@ -101,7 +101,23 @@ table {
   border-collapse: collapse;
 }
 
-
 td, th {
   padding: 5px 10px;
+}
+
+a:visited {
+  color: red;
+}
+
+p::first-letter {
+  font-size: 2rem;
+}
+
+p::selection {
+  background-color: red;
+  color: green;
+}
+
+p:hover::first-line {
+  font-weight: bold;
 }
